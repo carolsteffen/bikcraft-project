@@ -1,0 +1,133 @@
+.introducao_interna{
+  background: url(/image/capas/bg-contato.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 40px 0 25px 0;
+}
+
+.interna_contato h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .1em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  
+  .interna-contato h2::after {
+    content: "";
+    display: block;
+    background: white;
+    height: 3px;
+    width: 40px;
+    margin: 4px auto 8px auto;
+  }
+
+  .contato{
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: initial;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .contato .contato-form{
+    font-weight: normal;
+  }
+
+  .contato-form label{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+  }
+  
+  .contato-form input{
+    display: block;
+    width: 100%;
+    border: 4px solid #fec63e;
+    background: none;
+    color: rgb(0, 0, 0);
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .contato-form textarea{
+    display: block;
+    width: 100%;
+    border: 4px solid #fec63e;
+    margin-bottom: 10px;
+  }
+
+  .contato-form button{
+    background: none;
+    padding: 7px 40px;
+  }
+
+  .contato-form button:hover{
+    color: black;
+    border-color: black;
+  }
+
+  .contato_dados{
+    padding-left: 60px;
+  }
+  
+  .contato_dados h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .contato_dados span{
+    display: block;
+    padding-top: 5px;
+    font-weight: normal;
+  }
+
+  .contato_dados span:nth-of-type(even){
+    margin-bottom: 30px;
+  }
+  
+  .contato_dados ul li {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+  
+  .contato_dados ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .contato_dados ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 7px;
+  }
+  
+  .contato_dados ul li a:hover {
+    border-color: black;
+  }
+  
+  .contato_dados p{
+    margin-bottom: 5px;
+  }
+
+  .contato_mapa{
+    margin-bottom: 40px;
+  }

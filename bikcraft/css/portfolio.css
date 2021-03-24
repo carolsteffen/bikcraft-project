@@ -1,0 +1,52 @@
+.introducao{
+  background: url(/image/capas/bg-portfolio.jpg) no-repeat center;;
+  background-size: cover;
+  height: 100%;
+  padding: 40px 0 40px 0;
+}
+
+.interna-portfolio{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.interna-portfolio h2{
+  font-size: 36px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: .1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.interna-portfolio h2::after {
+  content: "";
+  display: block;
+  background: white;
+  height: 3px;
+  width: 40px;
+  margin: 4px auto 8px auto;
+}
+
+.quote-clientes{
+  color: black;
+  padding: 20px 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.quote-clientes p{
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quote-clientes cite{
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  font-style: normal;
+}
