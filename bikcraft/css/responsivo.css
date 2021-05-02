@@ -1,0 +1,55 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+  }
+  
+@media only screen and (max-width: 787px) {
+  .header{
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img{
+    margin: 0 auto 10px auto;
+  }
+
+  .header_menu{
+    text-align: center;
+    /* display: none; */
+  }
+
+  .header_menu ul li{
+    margin: 3px;
+  }
+
+  .header_menu ul li a {
+    border: 4px solid #000;
+    width: 140px;
+    display: block;
+    line-height: 20px;
+    float: left;
+  }
+
+  .header_menu ul li a:hover{
+    border-color: #fff;
+  }
+
+  .introducao {
+    margin-top: 0;
+    padding: 20px;
+    background: url(/image/capas/bg-mobile.jpg);
+    background-size: cover;
+    height: 100%;
+  }
+
+  .portfolio_lista ul li grid-8 img{
+    height: 100%;
+  }
+  
+  /* Mudei a altura aqui porque estava quebrando as img da page inicial/portfólio */
+  .grid-8-img{
+    height: auto;
+  }
+
+  
+  }
+  
