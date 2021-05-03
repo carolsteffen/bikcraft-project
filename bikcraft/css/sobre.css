@@ -1,6 +1,6 @@
 
 .interna_sobre{
-  background: url(/image/capas/bg-sobre.jpg) no-repeat center;
+  background: url(../image/capas/bg-sobre.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -50,6 +50,7 @@
   margin-bottom: .1em;
   padding-right: 40px;
   font: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 
 .missao_sobre ul{

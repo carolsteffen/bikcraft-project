@@ -1,8 +1,27 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+/* HOME */
+  .qualidade::after{
+     right: 66px;
+
+  }
+
+  .qualidade_lista li{
+    padding: 20px;
+  }
+
+  .footer_redes ul li a{
+    padding: 5px;
+  }
+
+  .footer_redes ul li a img{
+    width: 26px;
+    height: 26px;
+  }
 
   }
   
 @media only screen and (max-width: 787px) {
+  /* HOME */
   .header{
     position: relative;
     padding-bottom: 0;
@@ -33,12 +52,24 @@
     border-color: #fff;
   }
 
+  .header_menu ul li a.click{
+    border-color: #fff;
+  }
+
   .introducao {
     margin-top: 0;
-    padding: 20px;
-    background: url(/image/capas/bg-mobile.jpg);
+    padding: 35px;
+    background: url(../image/capas/bg-mobile.jpg);
     background-size: cover;
     height: 100%;
+  }
+
+  .introducao_interna{
+    margin-top: 0;
+  }
+
+  .introducao h1 {
+    font-size: 36px;
   }
 
   .portfolio_lista ul li grid-8 img{
@@ -50,6 +81,35 @@
     height: auto;
   }
 
-  
+  .call{
+    padding-top: 10px;
+  }
+
+  .qualidade{
+    padding: 0px;
+  }
+
+  .qualidade::after{
+    display: none;
+  }
+
+  .missao_sobre p {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .missao_sobre ul li{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .footer_redes ul li a img{
+    width: 26px;
+    height: 26px;
+  }
+
+
   }
   

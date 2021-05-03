@@ -128,7 +128,7 @@ img {
 .introducao{
     width: 100%;
     height: 380px;
-    background: url("../image/fotos/mesa-trabalho.jpg") no-repeat center;
+    background: url("../image/capas/bg-mobile.jpg") no-repeat center;
     background-size: cover;
     margin-top: 92px;
     text-align: center;
@@ -263,7 +263,7 @@ img {
   width: 634px;
   height: 83px;
   display: block;
-  background: url(/image/linhas.svg);
+  background: url(../image/linhas.svg);
   position: absolute;
   top: 249px;
   right: 162px;
@@ -307,7 +307,7 @@ padding: 10px 20px 20px 20px;
 .quebra {
   width: 100%;
   height: 220px;
-  background: url(/image/capas/bg-footer.jpg) no-repeat center;
+  background: url(../image/capas/bg-footer.jpg) no-repeat center;
   background-size: cover;
   text-align: center;
   padding-top: 40px;
