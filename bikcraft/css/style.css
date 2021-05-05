@@ -181,7 +181,7 @@ img {
 /* PRODUTOS */
 
 .produtos{
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .produtos_lista li{
@@ -236,6 +236,7 @@ img {
   width: 100%;
   background: #000;
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .portfolio .subtitulo{
@@ -373,3 +374,72 @@ padding: 10px 20px 20px 20px;
   padding: 20px 0;
   
 }
+
+/* SLIDES JS*/
+/* ENTRE [] SELECIONA TODS ATRIBUTOS, POR EXEMPLO, [SRC] */
+
+.js [data-slide] {
+  position: relative;
+}
+/* * QUER DIZER QUE É TODO ITEM, * SELETOR TOTAL */
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.js [data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  text-indent: -100px;
+  overflow: hidden;
+}
+.js [data-slide-nav] > button.active {
+  background: #fec454;
+}
+
+/* Animação das pages */
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0,-20px,0);
+} 
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+
+
+/* /* .fadeInUp {
+  transform: translate3d(0,20px,0);
+} */
+/* .fadeInRight {
+  transform: translate3d(20px,0,0);
+} */
+.fadeInLeft {
+  transform: translate3d(-20px,0,0);
+} 
