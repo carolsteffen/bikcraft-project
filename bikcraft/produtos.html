@@ -3,14 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Bikcraft - Produtos</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/grid.css">
+  <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte.">
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Bikcraft - Produtos"/>
+  <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte."/>
+  <meta property="og:url" content="http://bikcraft.com/produtos.html"/>
+  <meta property="og:image" content="http://bikcraft.com/image/og-image.png">
+
+  <!-- og - open graph -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="./image/favicon.icon">
+
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/produtos.css">
-  <link rel="stylesheet" href="css/responsivo.css">
 
   <script>
     document.documentElement.classList.add("js")
@@ -125,20 +134,20 @@
   <section class="orcamento container">
     <div class="formulario">
       <h2 class="subtitulo">Orçamento</h2>
-      <form id="form_orcamento" class="form grid-8">
+      <form id="form_orcamento" method="POST" action="../sendgrid-php/enviar-sendgrid.php" class="form grid-8 formphp">
         <label for="nome">Nome</label>
-        <input type="text" id="nome">
+        <input type="text" id="nome" name="nome" required>
 
         <label for="email">E-mail</label>
-        <input type="text" id="email">
+        <input type="text" id="email" type="email" name="email" required>
         
         <label for="telefone">Telefone</label>
-        <input type="tel" id="telefone">
+        <input type="tel" id="telefone" name="telefone">
 
-        <label for="espec">Especificações</label>
-        <textarea id="espec" cols="40" rows="8"></textarea>
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" cols="40" rows="8" name="mensagem" required></textarea>
         
-        <button type="submit" class="btn">Enviar</button>
+        <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
       </form>
     </div>
 
@@ -207,6 +216,7 @@
   </footer>
 
   <script src="./script/plugins/simple-anime.js"></script>
+  <script src="./script/plugins/simple-form.js"></script>
   <script src="./script/script.js"></script>
 
 </body>
